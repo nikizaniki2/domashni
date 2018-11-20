@@ -1,6 +1,6 @@
 Preset: {
 
-Language: <language>
+Language: <'language'>
 
 Homework: <#+'ID'>
 
