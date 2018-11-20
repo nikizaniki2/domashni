@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Company taxi1 = new Company("Taxi1","24/08/2001","1234567890");
+		Company firma2 = new Company("","","");
+		System.out.println(taxi1.toString());
+		
+		System.out.println("Type in Name,Date of Creation, ID:");
+		
+		String name = scanner.nextLine();
+		String date = scanner.nextLine();
+		String id = scanner.nextLine();
+		firma2.setName(name);
+		firma2.setDateCreated(date);
+		firma2.setId(id);
+		System.out.println(firma2.toString());
+		scanner.close();
+	}
+
+}
